@@ -5,7 +5,7 @@ def find_nth_prime(n):
 	current_val = 3
 	while len(prime_list) < n+1:
 	    cur_val_sqrt = math.sqrt(current_val)
-	    x = 1
+		x = 1
 	    prime_val = 0
 	    while prime_list[x] <= cur_val_sqrt:
 	        if current_val % prime_list[x] == 0:
